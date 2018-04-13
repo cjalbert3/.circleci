@@ -1,0 +1,8 @@
+version: 2
+jobs:
+   build:
+     docker:
+       - image: circleci/Python:3.6-node-browsers
+     steps:
+       - checkout
+       - run: echo "hello world"
